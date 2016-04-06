@@ -1,0 +1,25 @@
+/*INSERT CSS*/
+h1{
+	text-align: center;
+}
+
+body{
+	text-align: center;
+
+}
+
+#poster{
+	width:200px;
+	float:left;
+	
+}
+
+.content{
+	margin:0px auto;
+	overflow: hidden;
+}
+
+#poster img{
+	display:block;
+
+}
