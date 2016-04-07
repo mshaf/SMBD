@@ -15,4 +15,7 @@ form{
 h1{
 	font-family: Times;
 }
-
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
