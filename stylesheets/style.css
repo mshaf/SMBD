@@ -8,18 +8,11 @@ body{
 
 }
 
-#poster{
-	width:200px;
-	float:left;
-	
+form{
+	margin:50px 0;
 }
 
-.content{
-	margin:0px auto;
-	overflow: hidden;
+h1{
+	font-family: Times;
 }
 
-#poster img{
-	display:block;
-
-}

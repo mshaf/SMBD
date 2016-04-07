@@ -3,23 +3,40 @@
 <head>
 	<title>movie-site</title>
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src='javascripts/jquery.js'></script>
 	<script src='javascripts/app.js'></script>
 </head>
 <body>
-	<h1 id="main-head">Shaf Movie Database</h1>
-	<div> 
+	<div class="container"><h1 id="main-head">Shaf Movie Database</h1>
+		<form class="form-inline">
+	
+			<div class="form-group">
+				<input type="text" id="query" class="form-control" size="40" placeholder="start typing" value="">
+				<input type="submit" class="btn-primary" value ="search">
+			</div>
+		</form>
+		
+		
+		<div class="row">
+			<div class="poster col-md-6"></div>
+			<div class="content col-md-6">
+				<h2 id="movie-title"></h2>
+				<p id="plot"></p>
+				<p id="actors"></p>
+				<p id="tomato-review"></p>
+				<p class="tomato-meter"></p>
+		</div>
 
-<input type="text" id="query" size="40" value=""> 
-<button name="button" type="button" id="btn" >search</button>
-
-</div> 
-
-	<div><h2 id="movie-title"></h2></div>
-	<div id="poster"></div>
-	<div class="content" ><p id="plot"></p><div>
-</div>
-
+		
 
 </body>
 </html>
